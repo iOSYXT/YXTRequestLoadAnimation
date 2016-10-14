@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC4872B1DB0FAF800CBCD4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4872A1DB0FAF800CBCD4D /* main.m */; };
+		DBC4872E1DB0FAF800CBCD4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4872D1DB0FAF800CBCD4D /* AppDelegate.m */; };
+		DBC487361DB0FAF800CBCD4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC487351DB0FAF800CBCD4D /* Assets.xcassets */; };
+		DBC487391DB0FAF800CBCD4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC487371DB0FAF800CBCD4D /* LaunchScreen.storyboard */; };
+		DBC487441DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC487431DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.m */; };
+		DBC4874F1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4874E1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC487401DB0FAF800CBCD4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC4871E1DB0FAF800CBCD4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC487251DB0FAF800CBCD4D;
+			remoteInfo = YXTRequestLoadAnimation;
+		};
+		DBC4874B1DB0FAF800CBCD4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC4871E1DB0FAF800CBCD4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC487251DB0FAF800CBCD4D;
+			remoteInfo = YXTRequestLoadAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC487261DB0FAF800CBCD4D /* YXTRequestLoadAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXTRequestLoadAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC4872A1DB0FAF800CBCD4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC4872C1DB0FAF800CBCD4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC4872D1DB0FAF800CBCD4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC487351DB0FAF800CBCD4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC487381DB0FAF800CBCD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC4873A1DB0FAF800CBCD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC4873F1DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXTRequestLoadAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC487431DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTRequestLoadAnimationTests.m; sourceTree = "<group>"; };
+		DBC487451DB0FAF800CBCD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC4874A1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXTRequestLoadAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC4874E1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTRequestLoadAnimationUITests.m; sourceTree = "<group>"; };
+		DBC487501DB0FAF800CBCD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC487231DB0FAF800CBCD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC4873C1DB0FAF800CBCD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC487471DB0FAF800CBCD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC4871D1DB0FAF800CBCD4D = {
+			isa = PBXGroup;
+			children = (
+				DBC487281DB0FAF800CBCD4D /* YXTRequestLoadAnimation */,
+				DBC487421DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests */,
+				DBC4874D1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests */,
+				DBC487271DB0FAF800CBCD4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC487271DB0FAF800CBCD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC487261DB0FAF800CBCD4D /* YXTRequestLoadAnimation.app */,
+				DBC4873F1DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.xctest */,
+				DBC4874A1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC487281DB0FAF800CBCD4D /* YXTRequestLoadAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4872C1DB0FAF800CBCD4D /* AppDelegate.h */,
+				DBC4872D1DB0FAF800CBCD4D /* AppDelegate.m */,
+				DBC487351DB0FAF800CBCD4D /* Assets.xcassets */,
+				DBC487371DB0FAF800CBCD4D /* LaunchScreen.storyboard */,
+				DBC4873A1DB0FAF800CBCD4D /* Info.plist */,
+				DBC487291DB0FAF800CBCD4D /* Supporting Files */,
+			);
+			path = YXTRequestLoadAnimation;
+			sourceTree = "<group>";
+		};
+		DBC487291DB0FAF800CBCD4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4872A1DB0FAF800CBCD4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC487421DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC487431DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.m */,
+				DBC487451DB0FAF800CBCD4D /* Info.plist */,
+			);
+			path = YXTRequestLoadAnimationTests;
+			sourceTree = "<group>";
+		};
+		DBC4874D1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4874E1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.m */,
+				DBC487501DB0FAF800CBCD4D /* Info.plist */,
+			);
+			path = YXTRequestLoadAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC487251DB0FAF800CBCD4D /* YXTRequestLoadAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC487531DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimation" */;
+			buildPhases = (
+				DBC487221DB0FAF800CBCD4D /* Sources */,
+				DBC487231DB0FAF800CBCD4D /* Frameworks */,
+				DBC487241DB0FAF800CBCD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXTRequestLoadAnimation;
+			productName = YXTRequestLoadAnimation;
+			productReference = DBC487261DB0FAF800CBCD4D /* YXTRequestLoadAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC4873E1DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC487561DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimationTests" */;
+			buildPhases = (
+				DBC4873B1DB0FAF800CBCD4D /* Sources */,
+				DBC4873C1DB0FAF800CBCD4D /* Frameworks */,
+				DBC4873D1DB0FAF800CBCD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC487411DB0FAF800CBCD4D /* PBXTargetDependency */,
+			);
+			name = YXTRequestLoadAnimationTests;
+			productName = YXTRequestLoadAnimationTests;
+			productReference = DBC4873F1DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC487491DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC487591DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimationUITests" */;
+			buildPhases = (
+				DBC487461DB0FAF800CBCD4D /* Sources */,
+				DBC487471DB0FAF800CBCD4D /* Frameworks */,
+				DBC487481DB0FAF800CBCD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC4874C1DB0FAF800CBCD4D /* PBXTargetDependency */,
+			);
+			name = YXTRequestLoadAnimationUITests;
+			productName = YXTRequestLoadAnimationUITests;
+			productReference = DBC4874A1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC4871E1DB0FAF800CBCD4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YXT;
+				TargetAttributes = {
+					DBC487251DB0FAF800CBCD4D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DBC4873E1DB0FAF800CBCD4D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC487251DB0FAF800CBCD4D;
+					};
+					DBC487491DB0FAF800CBCD4D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC487251DB0FAF800CBCD4D;
+					};
+				};
+			};
+			buildConfigurationList = DBC487211DB0FAF800CBCD4D /* Build configuration list for PBXProject "YXTRequestLoadAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC4871D1DB0FAF800CBCD4D;
+			productRefGroup = DBC487271DB0FAF800CBCD4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC487251DB0FAF800CBCD4D /* YXTRequestLoadAnimation */,
+				DBC4873E1DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests */,
+				DBC487491DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC487241DB0FAF800CBCD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC487391DB0FAF800CBCD4D /* LaunchScreen.storyboard in Resources */,
+				DBC487361DB0FAF800CBCD4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC4873D1DB0FAF800CBCD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC487481DB0FAF800CBCD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC487221DB0FAF800CBCD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC4872E1DB0FAF800CBCD4D /* AppDelegate.m in Sources */,
+				DBC4872B1DB0FAF800CBCD4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC4873B1DB0FAF800CBCD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC487441DB0FAF800CBCD4D /* YXTRequestLoadAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC487461DB0FAF800CBCD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC4874F1DB0FAF800CBCD4D /* YXTRequestLoadAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC487411DB0FAF800CBCD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC487251DB0FAF800CBCD4D /* YXTRequestLoadAnimation */;
+			targetProxy = DBC487401DB0FAF800CBCD4D /* PBXContainerItemProxy */;
+		};
+		DBC4874C1DB0FAF800CBCD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC487251DB0FAF800CBCD4D /* YXTRequestLoadAnimation */;
+			targetProxy = DBC4874B1DB0FAF800CBCD4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC487371DB0FAF800CBCD4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC487381DB0FAF800CBCD4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC487511DB0FAF800CBCD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC487521DB0FAF800CBCD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC487541DB0FAF800CBCD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXTRequestLoadAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC487551DB0FAF800CBCD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXTRequestLoadAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC487571DB0FAF800CBCD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXTRequestLoadAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXTRequestLoadAnimation.app/YXTRequestLoadAnimation";
+			};
+			name = Debug;
+		};
+		DBC487581DB0FAF800CBCD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXTRequestLoadAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXTRequestLoadAnimation.app/YXTRequestLoadAnimation";
+			};
+			name = Release;
+		};
+		DBC4875A1DB0FAF800CBCD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXTRequestLoadAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXTRequestLoadAnimation;
+			};
+			name = Debug;
+		};
+		DBC4875B1DB0FAF800CBCD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXTRequestLoadAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.YXTRequestLoadAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXTRequestLoadAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC487211DB0FAF800CBCD4D /* Build configuration list for PBXProject "YXTRequestLoadAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC487511DB0FAF800CBCD4D /* Debug */,
+				DBC487521DB0FAF800CBCD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC487531DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC487541DB0FAF800CBCD4D /* Debug */,
+				DBC487551DB0FAF800CBCD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC487561DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC487571DB0FAF800CBCD4D /* Debug */,
+				DBC487581DB0FAF800CBCD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC487591DB0FAF800CBCD4D /* Build configuration list for PBXNativeTarget "YXTRequestLoadAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC4875A1DB0FAF800CBCD4D /* Debug */,
+				DBC4875B1DB0FAF800CBCD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC4871E1DB0FAF800CBCD4D /* Project object */;
+}
