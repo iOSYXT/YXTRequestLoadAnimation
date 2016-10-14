@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "YXTRootVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self.window makeKeyAndVisible];
+    
+    YXTRootVC *rootVC = [[YXTRootVC alloc] init];
+    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    nc.navigationBar.translucent = NO;
+    
+    self.window.rootViewController = nc;
+    
     return YES;
 }
 
